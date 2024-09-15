@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login to view your account.</title>
+    </head>
+    <body>
+    <h1>Login</h1>
+    <form action="http://localhost:8080/ToysProject/LoginServlet" method="post">
+        <form action="LoginServlet">
+        <label for="customerID">Customer ID:</label><br>
+        <input type="customerID" id="customerID" name="customerID" required><br><br>
+        
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <input type="submit" value="Login">
+        <input type="reset" value="Clear">
+    </form>
+    </body>
+</html>
